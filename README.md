@@ -57,3 +57,12 @@ Este projeto pode ser facilmente publicado usando:
 📸 Preview
 
 ![Preview do Gerador de Senhas](./screenshot.png)
+
+👨‍💻 Autor
+
+Desenvolvido por Iago Alves, oficial do Exército e estudante dedicado à transição de carreira para a área de TI.
+Projeto criado como parte de sua prática em React e construção de portfólio.
+
+GitHub: https://github.com/IagoAlves2
+
+Este projeto não possui licença no momento. Sinta-se à vontade para estudá-lo, aprender com ele e se inspirar.
