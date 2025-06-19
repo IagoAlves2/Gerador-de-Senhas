@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🔐 Gerador de Senhas Seguras - React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um gerador de senhas personalizável desenvolvido com **React** e **CSS puro**, criado com foco em segurança, usabilidade e aprendizado prático.  
+Você escolhe o tamanho da senha, os tipos de caracteres e copia com um clique.
 
-## Available Scripts
+## 🚀 Funcionalidades
 
-In the project directory, you can run:
+- ✅ Geração de senhas seguras e aleatórias
+- ✅ Opções de personalização:
+  - Letras minúsculas
+  - Letras maiúsculas
+  - Números
+  - Símbolos
+- ✅ Definição do tamanho da senha
+- ✅ Cópia da senha para a área de transferência
+- ✅ Mensagem de feedback ao copiar
+- ✅ Indicador de força da senha
+- ✅ Interface responsiva e intuitiva
 
-### `npm start`
+## 🧠 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/) (Create React App)
+- JavaScript moderno (ES6+)
+- HTML5 + JSX
+- CSS3 (estilização própria, sem bibliotecas externas)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Estrutura do Projeto
+src/
+├── App.js
+├── index.js
+├── PasswordGenerator.jsx
+├── PasswordGenerator.css
 
-### `npm test`
+## 📦 Como Executar Localmente
+1. Clone o repositório:
+git clone https://github.com/IagoAlves2/gerador-senhas-react.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instale as dependências:
+npm install
 
-### `npm run build`
+3. Execute o projeto:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Acesse no navegador:
+http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 Publicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto pode ser facilmente publicado usando:
 
-### `npm run eject`
+    Vercel
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Netlify
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Ou qualquer serviço de hospedagem para React apps
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📸 Preview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Preview do Gerador de Senhas](./screenshot.png)
